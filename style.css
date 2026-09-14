@@ -474,14 +474,14 @@ footer {
 }
 .hero-buttons .btn-gold,
 .hero-buttons .btn-outline {
-  background: #E8D9BC !important;
+  background: #EFE6D3 !important;
   color: var(--green) !important;
-  border: 1.5px solid #E8D9BC !important;
+  border: 1.5px solid #EFE6D3 !important;
 }
 
 .hero-buttons .btn-gold:hover,
 .hero-buttons .btn-outline:hover {
   background: transparent !important;
-  color: #E8D9BC !important;
-  border-color: #E8D9BC !important;
+  color: #EFE6D3 !important;
+  border-color: #EFE6D3 !important;
 }
