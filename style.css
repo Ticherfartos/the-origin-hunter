@@ -447,3 +447,15 @@ footer {
     position: relative;
     top: 20px;
 }
+.brand-logo {
+  max-width: 420px;
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .brand-logo {
+    max-width: 280px;
+  }
+}
