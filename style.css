@@ -472,3 +472,16 @@ footer {
     max-width: 280px;
   }
 }
+.hero-buttons .btn-gold,
+.hero-buttons .btn-outline {
+  background: var(--pale-cream) !important;
+  color: var(--green) !important;
+  border: 1.5px solid var(--pale-cream) !important;
+}
+
+.hero-buttons .btn-gold:hover,
+.hero-buttons .btn-outline:hover {
+  background: transparent !important;
+  color: var(--pale-cream) !important;
+  border-color: var(--pale-cream) !important;
+}
