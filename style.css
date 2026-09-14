@@ -203,7 +203,11 @@ body {
   width: 100%;
   height: auto;
 }
-
+.hero-tree img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
 .feature-strip {
   background: var(--pale-cream);
   display: grid;
