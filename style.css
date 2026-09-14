@@ -474,14 +474,14 @@ footer {
 }
 .hero-buttons .btn-gold,
 .hero-buttons .btn-outline {
-  background: var(--pale-cream) !important;
+  background: rgba(251, 248, 239, 0.98) !important;
   color: var(--green) !important;
-  border: 1.5px solid var(--pale-cream) !important;
+  border: 1.5px solid rgba(251, 248, 239, 0.98) !important;
 }
 
 .hero-buttons .btn-gold:hover,
 .hero-buttons .btn-outline:hover {
   background: transparent !important;
-  color: var(--pale-cream) !important;
-  border-color: var(--pale-cream) !important;
+  color: rgba(251, 248, 239, 0.98) !important;
+  border-color: rgba(251, 248, 239, 0.98) !important;
 }
