@@ -182,21 +182,22 @@ body {
 }
 
 .btn-gold {
-  background: var(--cream);
+  background: var(--pale-cream);
   color: var(--green);
-  border: 1.5px solid var(--cream);
+  border: 1.5px solid var(--pale-cream);
 }
 
 .btn-outline {
-  background: var(--cream);
+  background: var(--pale-cream);
   color: var(--green);
-  border: 1.5px solid var(--cream);
+  border: 1.5px solid var(--pale-cream);
 }
+
 .btn-gold:hover,
 .btn-outline:hover {
   background: transparent;
-  color: var(--cream);
-  border-color: var(--cream);
+  color: var(--pale-cream);
+  border-color: var(--pale-cream);
 }
 .hero-tree {
   color: rgba(255, 255, 255, 0.10);
