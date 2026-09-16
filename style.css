@@ -326,6 +326,11 @@ body {
   display: inline-block;
   background: var(--gold);
   color: white;
+  .icon svg {
+  width: 38px !important;
+  height: 38px !important;
+  display: block !important;
+}
   padding: 6px 12px;
   border-radius: 99px;
   font-weight: bold;
