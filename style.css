@@ -237,7 +237,7 @@ body {
   margin: 0 auto 18px;
   border-radius: 50%;
   background: var(--green);
-  color: var(--cream);
+ color: #EFE6D3;
   display: flex;
   align-items: center;
   justify-content: center;
