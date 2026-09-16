@@ -245,7 +245,11 @@ body {
   line-height: 1;
   box-shadow: 0 8px 18px rgba(0, 0, 0, 0.18);
 }
-
+.icon svg {
+  width: 30px;
+  height: 30px;
+  display: block;
+}
 .feature-strip h3 {
   font-family: Georgia, "Times New Roman", serif;
   color: var(--deep-green);
