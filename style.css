@@ -498,3 +498,10 @@ footer {
   color: #EFE6D3 !important;
   border-color: #EFE6D3 !important;
 }
+.icon-check {
+  font-family: Arial, sans-serif !important;
+  font-size: 38px !important;
+  font-weight: normal !important;
+  color: #EFE6D3 !important;
+  line-height: 1 !important;
+}
