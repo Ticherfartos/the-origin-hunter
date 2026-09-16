@@ -251,11 +251,7 @@ body {
   display: block;
   color: #EFE6D3 !important;
 }
-.icon svg path,
-.icon svg circle {
-  stroke: #EFE6D3 !important;
-  fill: #EFE6D3 !important;
-}
+
 .feature-strip h3 {
   font-family: Georgia, "Times New Roman", serif;
   color: var(--deep-green);
