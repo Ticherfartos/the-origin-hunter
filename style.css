@@ -511,3 +511,9 @@ footer {
 html {
   scroll-padding-top: 120px;
 }
+#about,
+#pricing,
+#how,
+#contact {
+  scroll-margin-top: 140px;
+}
