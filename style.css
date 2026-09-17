@@ -508,3 +508,6 @@ footer {
 .records-heading {
   color: #0f4f3c !important;
 }
+html {
+  scroll-padding-top: 120px;
+}
