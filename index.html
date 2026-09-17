@@ -39,7 +39,7 @@ I have a passion for uncovering family stories and helping people connect with t
 </p>
 
         <div class="hero-buttons">
-          <a class="btn btn-gold" href="#pricing">My Services</a>
+         <a class="btn btn-gold" href="#pricing" onclick="event.preventDefault(); const section=document.getElementById('pricing'); const y=section.getBoundingClientRect().top + window.pageYOffset - 140; window.scrollTo({top:y, behavior:'smooth'});">My Services</a>
           <a class="btn btn-outline" href="mailto:news@sarahmaywood.co.uk">Get in Touch</a>
         </div>
       </div>
