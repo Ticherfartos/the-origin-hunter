@@ -587,3 +587,81 @@ footer a:hover {
   transform: rotate(4deg);
   z-index: 4;
 }
+.hero {
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  align-items: center;
+  gap: 40px;
+}
+
+.hero-collage {
+  position: relative;
+  min-height: 520px;
+  width: 100%;
+}
+
+.hero-photo {
+  position: absolute;
+  background: #efe6d6;
+  padding: 8px;
+  border-radius: 3px;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.18);
+}
+
+.hero-photo img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.hero-photo-main {
+  width: 420px;
+  top: 90px;
+  right: 110px;
+  transform: rotate(-2deg);
+  z-index: 2;
+}
+
+.hero-photo-family {
+  width: 180px;
+  top: 55px;
+  right: 20px;
+  transform: rotate(4deg);
+  z-index: 3;
+}
+
+.hero-photo-scout {
+  width: 165px;
+  top: 340px;
+  right: 35px;
+  transform: rotate(3deg);
+  z-index: 3;
+}
+
+.hero-faded {
+  position: absolute;
+  z-index: 1;
+  pointer-events: none;
+  font-family: Georgia, serif;
+  font-style: italic;
+  color: rgba(255, 245, 220, 0.16);
+  line-height: 1.35;
+}
+
+.hero-faded span {
+  display: block;
+}
+
+.hero-faded-left {
+  left: 10px;
+  bottom: 20px;
+  text-align: left;
+  font-size: 30px;
+}
+
+.hero-faded-right {
+  right: -10px;
+  top: 90px;
+  text-align: right;
+  font-size: 28px;
+}
