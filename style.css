@@ -546,3 +546,43 @@ footer a:hover {
   opacity: 0.85;
   margin-top: 8px;
 }
+.hero-photos {
+  position: relative;
+  width: 440px;
+  height: 420px;
+  justify-self: center;
+  align-self: center;
+}
+
+.hero-photo {
+  position: absolute;
+  display: block;
+  object-fit: cover;
+  border: 8px solid rgba(251, 248, 239, 0.96);
+  box-shadow: 0 12px 28px rgba(0,0,0,0.28);
+  border-radius: 4px;
+}
+
+.photo-main {
+  width: 300px;
+  right: 55px;
+  top: 70px;
+  transform: rotate(-2deg);
+  z-index: 2;
+}
+
+.photo-top {
+  width: 175px;
+  right: 0;
+  top: 5px;
+  transform: rotate(5deg);
+  z-index: 3;
+}
+
+.photo-bottom {
+  width: 170px;
+  right: 5px;
+  bottom: 0;
+  transform: rotate(4deg);
+  z-index: 4;
+}
