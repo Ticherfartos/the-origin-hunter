@@ -548,8 +548,8 @@ footer a:hover {
 }
 .hero-photos {
   position: relative;
-  width: 440px;
-  height: 420px;
+  width: 560px;
+  height: 470px;
   justify-self: center;
   align-self: center;
 }
@@ -564,25 +564,26 @@ footer a:hover {
 }
 
 .photo-main {
-  width: 300px;
-  right: 55px;
-  top: 70px;
+  width: 390px;
+  right: 95px;
+  top: 80px;
   transform: rotate(-2deg);
   z-index: 2;
+  object-fit: contain;
 }
 
 .photo-top {
-  width: 175px;
-  right: 0;
+  width: 210px;
+  right: 10px;
   top: 5px;
   transform: rotate(5deg);
   z-index: 3;
 }
 
 .photo-bottom {
-  width: 170px;
+  width: 215px;
   right: 5px;
-  bottom: 0;
+  bottom: 10px;
   transform: rotate(4deg);
   z-index: 4;
 }
