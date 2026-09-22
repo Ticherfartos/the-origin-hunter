@@ -531,3 +531,12 @@ footer a:visited {
 footer a:hover {
   color: #efe6d3;
 }
+footer a,
+footer a:visited,
+footer a:active {
+  color: #ffffff !important;
+}
+
+footer a:hover {
+  color: #efe6d3 !important;
+}
