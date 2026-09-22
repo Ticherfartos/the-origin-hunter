@@ -540,3 +540,9 @@ footer a:active {
 footer a:hover {
   color: #efe6d3 !important;
 }
+.image-copyright {
+  font-size: 0.85rem;
+  color: #ffffff;
+  opacity: 0.85;
+  margin-top: 8px;
+}
