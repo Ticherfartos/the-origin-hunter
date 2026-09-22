@@ -520,3 +520,14 @@ html {
 .usp-line {
   font-weight: 600;
 }
+footer a {
+  color: #ffffff;
+}
+
+footer a:visited {
+  color: #ffffff;
+}
+
+footer a:hover {
+  color: #efe6d3;
+}
