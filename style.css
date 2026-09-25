@@ -587,3 +587,8 @@ footer a:hover {
   transform: rotate(4deg);
   z-index: 4;
 }
+.package-extra {
+  margin-top: 18px;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
