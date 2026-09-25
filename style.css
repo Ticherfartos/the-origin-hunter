@@ -597,3 +597,9 @@ footer a:hover {
 .package-extra strong {
   font-family: inherit !important;
 }
+em,
+i,
+.package-extra,
+.package-extra strong {
+  font-family: Arial, Helvetica, sans-serif !important;
+}
