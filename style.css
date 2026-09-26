@@ -703,3 +703,110 @@ i,
   transform: rotate(-3deg);
   z-index: 3;
 }
+/* =========================
+   MOBILE HERO FIX
+   ========================= */
+
+@media (max-width: 768px) {
+
+  html,
+  body {
+    overflow-x: hidden;
+  }
+
+  /* Header */
+  .topbar {
+    position: relative;
+    min-height: auto;
+    padding: 22px 20px;
+    flex-direction: column;
+    align-items: center;
+    gap: 22px;
+  }
+
+  .topbar img {
+    width: min(92%, 420px) !important;
+    height: auto;
+  }
+
+  .topbar nav {
+    width: 100%;
+  }
+
+  .topbar nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 18px 28px;
+    padding: 0;
+    margin: 0;
+  }
+
+  /* Hero becomes one column */
+  .hero {
+    display: grid;
+    grid-template-columns: 1fr !important;
+    padding: 38px 20px 30px;
+    overflow: hidden;
+  }
+
+  .hero h1 {
+    font-size: clamp(3rem, 13vw, 4.25rem);
+    line-height: 0.95;
+    max-width: 100%;
+  }
+
+  .hero p {
+    max-width: 100%;
+  }
+
+  /* Put collage underneath the wording */
+  .hero-collage {
+    width: 100%;
+    max-width: 420px;
+    height: 440px;
+    margin: 35px auto 0;
+    transform: none !important;
+    overflow: visible;
+  }
+
+  /* Main Frederick image */
+  .collage-main {
+    width: 285px;
+    left: 68px;
+    top: 45px;
+    transform: none;
+  }
+
+  /* Margaret */
+  .collage-margaret {
+    width: 100px;
+    left: 0;
+    top: 80px;
+    transform: rotate(-3deg);
+  }
+
+  /* Family */
+  .collage-family {
+    width: 112px;
+    right: 0;
+    top: 55px;
+    transform: rotate(4deg);
+  }
+
+  /* Percy */
+  .collage-percy {
+    width: 135px;
+    left: 35px;
+    bottom: 15px;
+    transform: rotate(2.5deg);
+  }
+
+  /* Ron */
+  .collage-ron {
+    width: 125px;
+    right: 30px;
+    bottom: 15px;
+    transform: rotate(-3deg);
+  }
+}
