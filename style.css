@@ -700,33 +700,5 @@ i,
   z-index: 3;
 }
 
-/* Faded heritage wording */
-@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
-
-.heritage-words span {
-  position: absolute;
-  font-family: "Italianno", "Monotype Corsiva", cursive;
-  font-weight: 400;
-  color: rgba(205, 171, 105, 0.32);
-  line-height: 1;
-  pointer-events: none;
-  z-index: 1;
-  white-space: nowrap;
-}
-
-.word-past {
-  left: 2%;
-  top: 12%;
-  font-size: 2.8rem;
-  transform: rotate(-8deg);
-}
-
-.word-stories {
-  left: 6%;
-  bottom: 15%;
-  font-size: 2.6rem;
-  transform: rotate(-5deg);
-}
-
 
 
