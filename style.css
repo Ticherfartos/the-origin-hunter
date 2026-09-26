@@ -628,67 +628,69 @@ i,
   border: none;
   box-shadow: none;
 
-  /* Much softer, rounded photographic fade */
+  /* Stronger, softer fade - more like an old photograph dissolving away */
   -webkit-mask-image: radial-gradient(
-    ellipse 90% 86% at center,
-    #000 48%,
-    rgba(0,0,0,0.96) 62%,
-    rgba(0,0,0,0.72) 76%,
-    rgba(0,0,0,0.32) 90%,
+    ellipse 88% 82% at center,
+    #000 38%,
+    rgba(0,0,0,0.96) 50%,
+    rgba(0,0,0,0.72) 64%,
+    rgba(0,0,0,0.42) 76%,
+    rgba(0,0,0,0.16) 88%,
     transparent 100%
   );
 
   mask-image: radial-gradient(
-    ellipse 90% 86% at center,
-    #000 48%,
-    rgba(0,0,0,0.96) 62%,
-    rgba(0,0,0,0.72) 76%,
-    rgba(0,0,0,0.32) 90%,
+    ellipse 88% 82% at center,
+    #000 38%,
+    rgba(0,0,0,0.96) 50%,
+    rgba(0,0,0,0.72) 64%,
+    rgba(0,0,0,0.42) 76%,
+    rgba(0,0,0,0.16) 88%,
     transparent 100%
   );
 }
 
-/* Frederick - main image, kept clear */
+/* Frederick - main photograph */
 .collage-main {
-  width: 520px;
-  left: 165px;
+  width: 455px;
+  left: 180px;
   top: 35px;
-  transform: rotate(-0.7deg);
+  transform: rotate(-1.5deg);
   z-index: 2;
 }
 
-/* Margaret - portrait on left */
+/* Margaret - portrait left */
 .collage-margaret {
-  width: 175px;
+  width: 155px;
   left: 5px;
-  top: 115px;
-  transform: rotate(-3deg);
-  z-index: 4;
-}
-
-/* Family photograph - upper right, no longer covering Frederick */
-.collage-family {
-  width: 205px;
-  right: -5px;
-  top: 5px;
-  transform: rotate(3deg);
-  z-index: 4;
-}
-
-/* Percy wartime photograph - lower left */
-.collage-percy {
-  width: 235px;
-  left: 55px;
-  bottom: 0;
-  transform: rotate(-3deg);
+  top: 125px;
+  transform: rotate(-4deg);
   z-index: 3;
 }
 
-/* Ron award photograph - lower right */
-.collage-ron {
-  width: 205px;
-  right: 15px;
+/* Family - upper right with clear space from Frederick */
+.collage-family {
+  width: 175px;
+  right: -20px;
+  top: 5px;
+  transform: rotate(4deg);
+  z-index: 3;
+}
+
+/* Percy - lower left */
+.collage-percy {
+  width: 215px;
+  left: 60px;
   bottom: 0;
-  transform: rotate(2deg);
-  z-index: 4;
+  transform: rotate(3deg);
+  z-index: 3;
+}
+
+/* Ron - lower right */
+.collage-ron {
+  width: 190px;
+  right: 15px;
+  bottom: 5px;
+  transform: rotate(-3deg);
+  z-index: 3;
 }
