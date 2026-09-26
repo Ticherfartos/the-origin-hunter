@@ -658,31 +658,59 @@ i,
 }
 
 /* Faded heritage wording */
-.hero-words {
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+
+.heritage-words span {
   position: absolute;
-  font-family: "Lucida Handwriting", "Brush Script MT", "Segoe Script", cursive;
-  font-style: normal;
-  color: rgba(210, 176, 105, 0.32);
-  line-height: 1.55;
-  letter-spacing: 0.02em;
+  font-family: "Italianno", "Monotype Corsiva", cursive;
+  font-weight: 400;
+  color: rgba(205, 171, 105, 0.32);
+  line-height: 1;
   pointer-events: none;
   z-index: 1;
-  transform: rotate(-4deg);
+  white-space: nowrap;
 }
 
-.hero-words-left {
-  left: -5px;
-  top: 70px;
-  font-size: 2.35rem;
-  text-align: left;
+.word-past {
+  left: 2%;
+  top: 12%;
+  font-size: 2.8rem;
+  transform: rotate(-8deg);
 }
 
-.hero-words-right {
-  right: -45px;
-  top: 75px;
-  font-size: 2.35rem;
-  text-align: right;
+.word-stories {
+  left: 6%;
+  bottom: 15%;
+  font-size: 2.6rem;
+  transform: rotate(-5deg);
+}
+
+.word-families {
+  right: 3%;
+  top: 10%;
+  font-size: 3rem;
+  transform: rotate(-7deg);
+}
+
+.word-connections {
+  right: -2%;
+  top: 39%;
+  font-size: 2.6rem;
+  transform: rotate(-8deg);
+}
+
+.word-generations {
+  right: 3%;
+  top: 57%;
+  font-size: 2.8rem;
   transform: rotate(-6deg);
+}
+
+.word-home {
+  right: 8%;
+  bottom: 9%;
+  font-size: 2.7rem;
+  transform: rotate(-8deg);
 }
 .hero-collage::before {
   content: "";
