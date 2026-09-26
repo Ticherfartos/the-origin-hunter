@@ -659,7 +659,7 @@ mask-image:
   width: 455px;
   left: 180px;
   top: 35px;
-  transform: rotate(-1.5deg);
+  transform: none;
   z-index: 2;
 }
 
