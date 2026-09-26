@@ -670,36 +670,36 @@ i,
 
 /* Margaret - portrait left */
 .collage-margaret {
-  width: 155px;
-  left: 25px;
-  top: 70px;
-  transform: rotate(-3deg);
+  width: 165px;
+  left: 55px;
+  top: 45px;
+  transform: rotate(-4deg);
   z-index: 3;
 }
 
 /* Family - upper right */
 .collage-family {
-  width: 175px;
-  right: 20px;
-  top: 25px;
+  width: 185px;
+  right: 35px;
+  top: 40px;
   transform: rotate(4deg);
   z-index: 3;
 }
 
 /* Percy - lower left */
 .collage-percy {
-  width: 215px;
-  left: 85px;
-  bottom: 40px;
-  transform: rotate(3deg);
+  width: 220px;
+  left: 105px;
+  bottom: 65px;
+  transform: rotate(2.5deg);
   z-index: 3;
 }
 
 /* Ron - lower right */
 .collage-ron {
-  width: 190px;
-  right: 45px;
-  bottom: 45px;
+  width: 200px;
+  right: 75px;
+  bottom: 75px;
   transform: rotate(-3deg);
   z-index: 3;
 }
