@@ -660,9 +660,9 @@ i,
 /* Faded heritage wording */
 .hero-words {
   position: absolute;
-  font-family: "Segoe Script", "Brush Script MT", cursive;
+  font-family: "Lucida Handwriting", "Brush Script MT", "Segoe Script", cursive;
   font-style: normal;
-  color: rgba(214, 181, 110, 0.28);
+  color: rgba(210, 176, 105, 0.32);
   line-height: 1.55;
   letter-spacing: 0.02em;
   pointer-events: none;
@@ -673,14 +673,14 @@ i,
 .hero-words-left {
   left: -5px;
   top: 70px;
-  font-size: 2rem;
+  font-size: 2.35rem;
   text-align: left;
 }
 
 .hero-words-right {
   right: -45px;
   top: 75px;
-  font-size: 2rem;
+  font-size: 2.35rem;
   text-align: right;
   transform: rotate(-6deg);
 }
