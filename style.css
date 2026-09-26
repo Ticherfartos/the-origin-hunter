@@ -669,10 +669,6 @@ i,
   z-index: 1;
 }
 
-.hero > * {
-  position: relative;
-  z-index: 1;
-}
 .hero-collage {
   position: relative;
   width: 820px;
