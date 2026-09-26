@@ -670,18 +670,18 @@ i,
 
 /* Margaret - portrait left */
 .collage-margaret {
-  width: 165px;
-  left: 55px;
-  top: 45px;
-  transform: rotate(-4deg);
+  width: 155px;
+  left: 5px;
+  top: 70px;
+  transform: rotate(-3deg);
   z-index: 3;
 }
 
 /* Family - upper right */
 .collage-family {
-  width: 185px;
-  right: 35px;
-  top: 40px;
+  width: 175px;
+  right: 0px;
+  top: 25px;
   transform: rotate(4deg);
   z-index: 3;
 }
