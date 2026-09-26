@@ -660,23 +660,27 @@ i,
 /* Faded heritage wording */
 .hero-words {
   position: absolute;
-  font-family: Georgia, "Times New Roman", serif;
-  font-style: italic;
-  color: rgba(222, 190, 123, 0.20);
-  line-height: 1.45;
+  font-family: "Segoe Script", "Brush Script MT", cursive;
+  font-style: normal;
+  color: rgba(214, 181, 110, 0.28);
+  line-height: 1.55;
+  letter-spacing: 0.02em;
   pointer-events: none;
   z-index: 1;
+  transform: rotate(-4deg);
 }
 
 .hero-words-left {
-  left: -15px;
-  top: 35px;
-  font-size: 1.65rem;
+  left: -5px;
+  top: 70px;
+  font-size: 2rem;
+  text-align: left;
 }
 
 .hero-words-right {
-  right: -35px;
-  top: 120px;
-  font-size: 1.65rem;
+  right: -45px;
+  top: 75px;
+  font-size: 2rem;
   text-align: right;
+  transform: rotate(-6deg);
 }
