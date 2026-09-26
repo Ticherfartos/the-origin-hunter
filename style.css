@@ -761,57 +761,57 @@ i,
   }
 
   /* Put collage underneath the wording */
-  .hero-collage {
+ .hero-collage {
   position: relative;
   width: 100%;
   max-width: 390px;
-  height: 650px;
-  margin: 30px auto 0;
+  height: 560px;
+  margin: 28px auto 0;
   transform: none !important;
   overflow: visible;
 }
 
-/* Frederick - main image */
+/* Frederick - centred */
 .collage-main {
-  width: 300px;
-  left: 45px;
-  top: 10px;
-  transform: none;
+  width: 285px;
+  left: 50%;
+  top: 5px;
+  transform: translateX(-50%);
   z-index: 2;
 }
 
-/* Margaret */
+/* Margaret - upper left */
 .collage-margaret {
   width: 105px;
   left: 28px;
-  top: 250px;
+  top: 230px;
   transform: rotate(-3deg);
   z-index: 3;
 }
 
-/* Family */
+/* Family - upper right */
 .collage-family {
-  width: 120px;
-  right: 5px;
-  top: 245px;
+  width: 115px;
+  right: 28px;
+  top: 225px;
   transform: rotate(4deg);
   z-index: 3;
 }
 
-/* Percy */
+/* Percy - lower left */
 .collage-percy {
-  width: 140px;
-  left: 28px;
-  bottom: 80px;
+  width: 135px;
+  left: 30px;
+  top: 390px;
   transform: rotate(2.5deg);
   z-index: 3;
 }
 
-/* Ron */
+/* Ron - lower right */
 .collage-ron {
-  width: 130px;
+  width: 125px;
   right: 30px;
-  bottom: 80px;
+  top: 390px;
   transform: rotate(-3deg);
   z-index: 3;
 }
