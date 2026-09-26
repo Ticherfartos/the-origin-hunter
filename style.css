@@ -728,31 +728,5 @@ i,
   transform: rotate(-5deg);
 }
 
-.word-families {
-  right: 3%;
-  top: 10%;
-  font-size: 3rem;
-  transform: rotate(-7deg);
-}
 
-.word-connections {
-  right: -2%;
-  top: 39%;
-  font-size: 2.6rem;
-  transform: rotate(-8deg);
-}
-
-.word-generations {
-  right: 3%;
-  top: 57%;
-  font-size: 2.8rem;
-  transform: rotate(-6deg);
-}
-
-.word-home {
-  right: 8%;
-  bottom: 9%;
-  font-size: 2.7rem;
-  transform: rotate(-8deg);
-}
 
