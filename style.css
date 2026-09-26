@@ -605,11 +605,13 @@ i,
 }
 /* CLEAN HERO PHOTO COLLAGE */
 
+/* HERO PHOTO COLLAGE */
+
 .hero-collage {
   position: relative;
-  width: 760px;
+  width: 780px;
   max-width: 100%;
-  height: 560px;
+  height: 570px;
   justify-self: center;
   align-self: center;
   overflow: visible;
@@ -620,59 +622,63 @@ i,
   display: block;
   height: auto;
   object-fit: contain;
-  border: 7px solid rgba(251, 248, 239, 0.96);
-  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.22);
-  border-radius: 3px;
 
-  /* gentle faded-edge effect */
+  /* No hard white frame */
+  border: none;
+  box-shadow: none;
+
+  /* Soft photographic fade into the green */
   -webkit-mask-image: radial-gradient(
     ellipse at center,
-    rgba(0,0,0,1) 78%,
-    rgba(0,0,0,0.98) 86%,
-    rgba(0,0,0,0.82) 93%,
-    rgba(0,0,0,0.55) 100%
+    #000 58%,
+    rgba(0,0,0,0.98) 68%,
+    rgba(0,0,0,0.80) 78%,
+    rgba(0,0,0,0.42) 90%,
+    transparent 100%
   );
+
   mask-image: radial-gradient(
     ellipse at center,
-    rgba(0,0,0,1) 78%,
-    rgba(0,0,0,0.98) 86%,
-    rgba(0,0,0,0.82) 93%,
-    rgba(0,0,0,0.55) 100%
+    #000 58%,
+    rgba(0,0,0,0.98) 68%,
+    rgba(0,0,0,0.80) 78%,
+    rgba(0,0,0,0.42) 90%,
+    transparent 100%
   );
 }
 
-/* Frederick - main anchor image */
+/* Frederick - main photograph */
 .collage-main {
-  width: 475px;
-  left: 135px;
-  top: 55px;
-  transform: rotate(-1.2deg);
+  width: 525px;
+  left: 125px;
+  top: 25px;
+  transform: rotate(-1deg);
   z-index: 2;
 }
 
-/* Family photo - top right */
+/* Family photograph - upper right */
 .collage-family {
-  width: 215px;
-  right: 8px;
-  top: 10px;
-  transform: rotate(4deg);
+  width: 235px;
+  right: 0;
+  top: 0;
+  transform: rotate(3deg);
   z-index: 4;
 }
 
-/* Percy war photo - bottom left */
+/* Percy wartime photograph - lower left */
 .collage-percy {
-  width: 230px;
-  left: 35px;
-  bottom: 18px;
-  transform: rotate(-5deg);
+  width: 250px;
+  left: 15px;
+  bottom: 0;
+  transform: rotate(-4deg);
   z-index: 3;
 }
 
-/* Ron award photo - bottom right */
+/* Ron award photograph - lower right */
 .collage-ron {
-  width: 195px;
-  right: 0;
-  bottom: 16px;
+  width: 220px;
+  right: 5px;
+  bottom: 5px;
   transform: rotate(3deg);
   z-index: 4;
 }
