@@ -765,48 +765,53 @@ i,
   position: relative;
   width: 100%;
   max-width: 390px;
-  height: 520px;
+  height: 650px;
   margin: 30px auto 0;
   transform: none !important;
   overflow: visible;
 }
 
+/* Frederick - main image */
 .collage-main {
-  width: 275px;
-  left: 58px;
-  top: 55px;
+  width: 300px;
+  left: 45px;
+  top: 10px;
   transform: none;
   z-index: 2;
 }
 
+/* Margaret */
 .collage-margaret {
-  width: 92px;
-  left: 6px;
-  top: 115px;
+  width: 105px;
+  left: 28px;
+  top: 250px;
   transform: rotate(-3deg);
   z-index: 3;
 }
 
+/* Family */
 .collage-family {
-  width: 105px;
-  right: 2px;
-  top: 78px;
+  width: 120px;
+  right: 25px;
+  top: 245px;
   transform: rotate(4deg);
   z-index: 3;
 }
 
+/* Percy */
 .collage-percy {
-  width: 128px;
-  left: 30px;
-  bottom: 18px;
+  width: 140px;
+  left: 28px;
+  bottom: 20px;
   transform: rotate(2.5deg);
   z-index: 3;
 }
 
+/* Ron */
 .collage-ron {
-  width: 118px;
-  right: 28px;
-  bottom: 16px;
+  width: 130px;
+  right: 30px;
+  bottom: 20px;
   transform: rotate(-3deg);
   z-index: 3;
 }
