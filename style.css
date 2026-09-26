@@ -815,3 +815,9 @@ i,
   transform: rotate(-3deg);
   z-index: 3;
 }
+.hero .btn {
+  width: 82%;
+  max-width: 320px;
+  margin-left: auto;
+  margin-right: auto;
+}
