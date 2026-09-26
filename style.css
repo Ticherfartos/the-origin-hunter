@@ -690,7 +690,7 @@ i,
 .collage-percy {
   width: 220px;
   left: 105px;
-  bottom: 65px;
+   bottom: 35px;
   transform: rotate(2.5deg);
   z-index: 3;
 }
