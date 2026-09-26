@@ -762,51 +762,51 @@ i,
 
   /* Put collage underneath the wording */
   .hero-collage {
-    width: 100%;
-    max-width: 420px;
-    height: 440px;
-    margin: 35px auto 0;
-    transform: none !important;
-    overflow: visible;
-  }
+  position: relative;
+  width: 100%;
+  max-width: 390px;
+  height: 520px;
+  margin: 30px auto 0;
+  transform: none !important;
+  overflow: visible;
+}
 
-  /* Main Frederick image */
-  .collage-main {
-    width: 285px;
-    left: 68px;
-    top: 45px;
-    transform: none;
-  }
+.collage-main {
+  width: 275px;
+  left: 58px;
+  top: 55px;
+  transform: none;
+  z-index: 2;
+}
 
-  /* Margaret */
-  .collage-margaret {
-    width: 100px;
-    left: 0;
-    top: 80px;
-    transform: rotate(-3deg);
-  }
+.collage-margaret {
+  width: 92px;
+  left: 6px;
+  top: 115px;
+  transform: rotate(-3deg);
+  z-index: 3;
+}
 
-  /* Family */
-  .collage-family {
-    width: 112px;
-    right: 0;
-    top: 55px;
-    transform: rotate(4deg);
-  }
+.collage-family {
+  width: 105px;
+  right: 2px;
+  top: 78px;
+  transform: rotate(4deg);
+  z-index: 3;
+}
 
-  /* Percy */
-  .collage-percy {
-    width: 135px;
-    left: 35px;
-    bottom: 15px;
-    transform: rotate(2.5deg);
-  }
+.collage-percy {
+  width: 128px;
+  left: 30px;
+  bottom: 18px;
+  transform: rotate(2.5deg);
+  z-index: 3;
+}
 
-  /* Ron */
-  .collage-ron {
-    width: 125px;
-    right: 30px;
-    bottom: 15px;
-    transform: rotate(-3deg);
-  }
+.collage-ron {
+  width: 118px;
+  right: 28px;
+  bottom: 16px;
+  transform: rotate(-3deg);
+  z-index: 3;
 }
