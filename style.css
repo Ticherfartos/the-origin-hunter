@@ -699,7 +699,7 @@ i,
 .collage-ron {
   width: 200px;
   right: 75px;
-  bottom: 75px;
+  bottom: 30px;
   transform: rotate(-3deg);
   z-index: 3;
 }
