@@ -662,7 +662,7 @@ i,
 /* Frederick - main photograph */
 .collage-main {
   width: 455px;
-  left: 180px;
+  left: 175px;
   top: 35px;
   transform: none;
   z-index: 2;
@@ -671,17 +671,17 @@ i,
 /* Margaret - portrait left */
 .collage-margaret {
   width: 155px;
-  left: 5px;
-  top: 85px;
-  transform: rotate(-4deg);
+  left: 25px;
+  top: 70px;
+  transform: rotate(-3deg);
   z-index: 3;
 }
 
-/* Family - upper right with clear space from Frederick */
+/* Family - upper right */
 .collage-family {
   width: 175px;
-  right: -20px;
-  top: 5px;
+  right: 20px;
+  top: 25px;
   transform: rotate(4deg);
   z-index: 3;
 }
@@ -689,8 +689,8 @@ i,
 /* Percy - lower left */
 .collage-percy {
   width: 215px;
-  left: 60px;
-  bottom: 0;
+  left: 85px;
+  bottom: 40px;
   transform: rotate(3deg);
   z-index: 3;
 }
@@ -698,8 +698,8 @@ i,
 /* Ron - lower right */
 .collage-ron {
   width: 190px;
-  right: 15px;
-  bottom: 5px;
+  right: 45px;
+  bottom: 45px;
   transform: rotate(-3deg);
   z-index: 3;
 }
