@@ -784,7 +784,7 @@ i,
 .collage-margaret {
   width: 105px;
   left: 28px;
-  top: 230px;
+  top: 255px;
   transform: rotate(-3deg);
   z-index: 3;
 }
@@ -793,7 +793,7 @@ i,
 .collage-family {
   width: 115px;
   right: 28px;
-  top: 225px;
+  top: 250px;
   transform: rotate(4deg);
   z-index: 3;
 }
@@ -802,7 +802,7 @@ i,
 .collage-percy {
   width: 135px;
   left: 30px;
-  top: 390px;
+  top: 420px;
   transform: rotate(2.5deg);
   z-index: 3;
 }
@@ -811,7 +811,7 @@ i,
 .collage-ron {
   width: 125px;
   right: 30px;
-  top: 390px;
+  top: 420px;
   transform: rotate(-3deg);
   z-index: 3;
 }
