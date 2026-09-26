@@ -755,26 +755,4 @@ i,
   font-size: 2.7rem;
   transform: rotate(-8deg);
 }
-.hero-collage::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  pointer-events: none;
-  z-index: 0;
 
-  background:
-    radial-gradient(circle at 15% 25%, rgba(255,255,255,0.035) 0 2px, transparent 3px),
-    radial-gradient(circle at 75% 15%, rgba(0,0,0,0.035) 0 1px, transparent 2px),
-    radial-gradient(circle at 45% 70%, rgba(255,255,255,0.025) 0 2px, transparent 3px),
-    linear-gradient(115deg, transparent 0 47%, rgba(255,255,255,0.025) 48%, transparent 49%),
-    linear-gradient(35deg, transparent 0 58%, rgba(0,0,0,0.025) 59%, transparent 60%);
-
-  background-size:
-    90px 90px,
-    120px 120px,
-    140px 140px,
-    260px 260px,
-    300px 300px;
-
-  opacity: 0.8;
-}
