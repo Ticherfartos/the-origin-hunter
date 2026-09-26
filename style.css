@@ -792,7 +792,7 @@ i,
 /* Family */
 .collage-family {
   width: 120px;
-  right: 25px;
+  right: 5px;
   top: 245px;
   transform: rotate(4deg);
   z-index: 3;
@@ -802,7 +802,7 @@ i,
 .collage-percy {
   width: 140px;
   left: 28px;
-  bottom: 20px;
+  bottom: 80px;
   transform: rotate(2.5deg);
   z-index: 3;
 }
@@ -811,7 +811,7 @@ i,
 .collage-ron {
   width: 130px;
   right: 30px;
-  bottom: 20px;
+  bottom: 80px;
   transform: rotate(-3deg);
   z-index: 3;
 }
