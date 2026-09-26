@@ -629,24 +629,28 @@ i,
   box-shadow: none;
 
   /* Stronger, softer fade - more like an old photograph dissolving away */
-  -webkit-mask-image: radial-gradient(
-    ellipse 88% 82% at center,
-    #000 38%,
-    rgba(0,0,0,0.96) 50%,
-    rgba(0,0,0,0.72) 64%,
-    rgba(0,0,0,0.42) 76%,
-    rgba(0,0,0,0.16) 88%,
-    transparent 100%
+  -webkit-mask-image:
+  radial-gradient(
+    ellipse 82% 78% at center,
+    #000 30%,
+    rgba(0,0,0,0.95) 44%,
+    rgba(0,0,0,0.72) 58%,
+    rgba(0,0,0,0.40) 70%,
+    rgba(0,0,0,0.16) 80%,
+    rgba(0,0,0,0.05) 88%,
+    transparent 96%
   );
 
-  mask-image: radial-gradient(
-    ellipse 88% 82% at center,
-    #000 38%,
-    rgba(0,0,0,0.96) 50%,
-    rgba(0,0,0,0.72) 64%,
-    rgba(0,0,0,0.42) 76%,
-    rgba(0,0,0,0.16) 88%,
-    transparent 100%
+mask-image:
+  radial-gradient(
+    ellipse 82% 78% at center,
+    #000 30%,
+    rgba(0,0,0,0.95) 44%,
+    rgba(0,0,0,0.72) 58%,
+    rgba(0,0,0,0.40) 70%,
+    rgba(0,0,0,0.16) 80%,
+    rgba(0,0,0,0.05) 88%,
+    transparent 96%
   );
 }
 
