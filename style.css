@@ -164,7 +164,7 @@ body {
     no-repeat;
 
   mix-blend-mode: soft-light;
- opacity: 0.15;
+ opacity: 0.5;
 }
 .hero::after {
   content: "";
