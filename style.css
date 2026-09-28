@@ -777,54 +777,60 @@ i,
   z-index: 3;
 }
 
+/* Heritage wording */
+
+.heritage-words {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  transform: translateX(35px);
+  pointer-events: none;
+}
+
 .heritage-words span {
   position: absolute;
   font-family: "Segoe Script", "Brush Script MT", cursive;
   font-style: normal;
   font-weight: 400;
-  color: rgba(214, 181, 110, 0.24);
-  pointer-events: none;
-  z-index: 1;
+  color: rgba(214, 181, 110, 0.34);
   white-space: nowrap;
   line-height: 1;
   letter-spacing: 0;
 }
 
-/* Words sit in the clear green area on the far right */
-
 .word-families {
-  right: -135px;
-  top: 95px;
+  right: -155px;
+  top: 70px;
   font-size: 2.8rem;
-  transform: rotate(-7deg);
+  transform: rotate(-6deg);
 }
 
 .word-journeys {
-  right: -95px;
+  right: -120px;
   top: 165px;
   font-size: 2.6rem;
   transform: rotate(-4deg);
 }
 
 .word-connections {
-  right: -155px;
-  top: 235px;
+  right: -175px;
+  top: 260px;
   font-size: 2.7rem;
   transform: rotate(-6deg);
 }
 
 .word-generations {
-  right: -105px;
-  top: 310px;
-  font-size: 2.8rem;
+  right: -115px;
+  top: 365px;
+  font-size: 2.7rem;
   transform: rotate(-5deg);
 }
 
 .word-home {
-  right: -65px;
-  top: 385px;
+  right: -80px;
+  top: 455px;
   font-size: 2.6rem;
-  transform: rotate(-8deg);
+  transform: rotate(-7deg);
 }
 /* =========================
    MOBILE HERO FIX
