@@ -794,40 +794,39 @@ font-style: italic;
 /* Words sit in the clear green area on the far right */
 
 .word-families {
-  right: -155px;
-  top: 70px;
-  font-size: 3.1rem;
-  transform: rotate(-6deg);
+  right: -135px;
+  top: 95px;
+  font-size: 2.8rem;
+  transform: rotate(-7deg);
 }
 
 .word-journeys {
-  right: -120px;
+  right: -95px;
   top: 165px;
-  font-size: 2.9rem;
+  font-size: 2.6rem;
   transform: rotate(-4deg);
 }
 
 .word-connections {
-  right: -175px;
-  top: 260px;
-  font-size: 3rem;
+  right: -155px;
+  top: 235px;
+  font-size: 2.7rem;
   transform: rotate(-6deg);
 }
 
 .word-generations {
-  right: -115px;
-  top: 365px;
-  font-size: 3rem;
+  right: -105px;
+  top: 310px;
+  font-size: 2.8rem;
   transform: rotate(-5deg);
 }
 
 .word-home {
-  right: -80px;
-  top: 455px;
-  font-size: 3rem;
-  transform: rotate(-7deg);
+  right: -65px;
+  top: 385px;
+  font-size: 2.6rem;
+  transform: rotate(-8deg);
 }
-
 /* =========================
    MOBILE HERO FIX
    ========================= */
