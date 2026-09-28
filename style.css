@@ -776,6 +776,46 @@ i,
   transform: rotate(-3deg);
   z-index: 3;
 }
+
+.heritage-words span {
+  position: absolute;
+  font-family: "Palatino Linotype", "Book Antiqua", Georgia, serif;
+  font-style: italic;
+  font-weight: 400;
+  color: rgba(214, 181, 110, 0.28);
+  letter-spacing: 0.02em;
+  pointer-events: none;
+  z-index: 1;
+  white-space: nowrap;
+}
+
+.word-families {
+  right: -15px;
+  top: 60px;
+  font-size: 2.2rem;
+  transform: rotate(-7deg);
+}
+
+.word-journeys {
+  right: -5px;
+  top: 145px;
+  font-size: 2rem;
+  transform: rotate(-5deg);
+}
+
+.word-connections {
+  right: -35px;
+  top: 245px;
+  font-size: 2.15rem;
+  transform: rotate(-6deg);
+}
+
+.word-generations {
+  right: -10px;
+  top: 355px;
+  font-size: 2.1rem;
+  transform: rotate(-4deg);
+}
 /* =========================
    MOBILE HERO FIX
    ========================= */
