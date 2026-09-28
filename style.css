@@ -781,8 +781,8 @@ i,
 
 .heritage-words span {
   position: absolute;
-  font-family: "Italianno", cursive;
-  font-style: normal;
+  font-family: "Cormorant Garamond", Georgia, serif;
+font-style: italic;
   font-weight: 400;
   color: rgba(205, 171, 103, 0.34);
   pointer-events: none;
