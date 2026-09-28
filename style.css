@@ -781,42 +781,51 @@ i,
 
 .heritage-words span {
   position: absolute;
-  font-family: "Palatino Linotype", "Book Antiqua", Georgia, serif;
-  font-style: italic;
+  font-family: "Allura", cursive;
+  font-style: normal;
   font-weight: 400;
-  color: rgba(214, 181, 110, 0.28);
-  letter-spacing: 0.02em;
+  color: rgba(205, 171, 103, 0.34);
   pointer-events: none;
   z-index: 1;
   white-space: nowrap;
+  line-height: 1;
 }
+
+/* Words sit in the clear green area on the far right */
 
 .word-families {
-  right: -15px;
-  top: 60px;
-  font-size: 2.2rem;
-  transform: rotate(-7deg);
-}
-
-.word-journeys {
-  right: -5px;
-  top: 145px;
-  font-size: 2rem;
+  right: -165px;
+  top: 55px;
+  font-size: 3.1rem;
   transform: rotate(-5deg);
 }
 
-.word-connections {
-  right: -35px;
-  top: 245px;
-  font-size: 2.15rem;
+.word-journeys {
+  right: -145px;
+  top: 145px;
+  font-size: 2.9rem;
   transform: rotate(-6deg);
 }
 
+.word-connections {
+  right: -185px;
+  top: 240px;
+  font-size: 3rem;
+  transform: rotate(-5deg);
+}
+
 .word-generations {
-  right: -10px;
-  top: 355px;
-  font-size: 2.1rem;
-  transform: rotate(-4deg);
+  right: -150px;
+  top: 345px;
+  font-size: 3rem;
+  transform: rotate(-6deg);
+}
+
+.word-home {
+  right: -115px;
+  top: 450px;
+  font-size: 3rem;
+  transform: rotate(-7deg);
 }
 /* =========================
    MOBILE HERO FIX
