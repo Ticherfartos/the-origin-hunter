@@ -174,7 +174,7 @@ body {
   z-index: 0;
 
   background:
-    url("mycompass.png") left -80px center / 320px auto no-repeat,
+   url("mycompass.png") left 10px center / 260px auto no-repeat,
 
     radial-gradient(
       ellipse at center,
