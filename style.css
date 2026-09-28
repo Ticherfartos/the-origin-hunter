@@ -802,37 +802,37 @@ i,
 }
 
 .word-families {
-  right: -155px;
-  top: 70px;
+  right: -125px;
+  top: 255px;
+  font-size: 2.7rem;
+  transform: rotate(-5deg);
+}
+
+.word-journeys {
+  right: -115px;
+  top: 315px;
   font-size: 2.7rem;
   transform: rotate(-6deg);
 }
 
-.word-journeys {
-  right: -120px;
-  top: 165px;
-  font-size: 2.5rem;
-  transform: rotate(-4deg);
-}
-
 .word-connections {
-  right: -175px;
-  top: 260px;
-  font-size: 2.6rem;
-  transform: rotate(-6deg);
-}
-
-.word-generations {
-  right: -115px;
-  top: 365px;
-  font-size: 2.5rem;
+  right: -130px;
+  top: 375px;
+  font-size: 2.7rem;
   transform: rotate(-5deg);
 }
 
+.word-generations {
+  right: -125px;
+  top: 435px;
+  font-size: 2.7rem;
+  transform: rotate(-6deg);
+}
+
 .word-home {
-  right: -80px;
-  top: 455px;
-  font-size: 2.6rem;
+  right: -75px;
+  top: 500px;
+  font-size: 2.7rem;
   transform: rotate(-7deg);
 }
 /* =========================
