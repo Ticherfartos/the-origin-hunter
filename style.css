@@ -781,14 +781,15 @@ i,
 
 .heritage-words span {
   position: absolute;
-  font-family: "Cormorant Garamond", Georgia, serif;
-font-style: italic;
+  font-family: "WindSong", cursive;
+  font-style: normal;
   font-weight: 400;
   color: rgba(214, 181, 110, 0.24);
   pointer-events: none;
   z-index: 1;
   white-space: nowrap;
   line-height: 1;
+  letter-spacing: 0;
 }
 
 /* Words sit in the clear green area on the far right */
