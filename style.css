@@ -143,7 +143,10 @@ body {
 
   opacity: 1;
 }
-
+.hero > * {
+  position: relative;
+  z-index: 1;
+}
 .hero-text {
   max-width: 650px;
   position: relative;
