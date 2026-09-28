@@ -114,35 +114,79 @@ body {
   z-index: 0;
 
   background:
-    radial-gradient(ellipse at 5% 20%,
+
+    /* dark worn patch - far left */
+    radial-gradient(
+      ellipse 42% 75% at -5% 45%,
       rgba(5, 18, 13, 0.34) 0%,
-      rgba(5, 18, 13, 0.18) 24%,
-      transparent 48%),
+      rgba(5, 18, 13, 0.20) 38%,
+      transparent 72%
+    ),
 
-    radial-gradient(ellipse at 28% 80%,
-      rgba(210, 185, 128, 0.10) 0%,
-      rgba(210, 185, 128, 0.04) 30%,
-      transparent 52%),
+    /* darker aged patch - upper right */
+    radial-gradient(
+      ellipse 40% 55% at 96% 12%,
+      rgba(4, 17, 12, 0.28) 0%,
+      rgba(4, 17, 12, 0.13) 42%,
+      transparent 74%
+    ),
 
-    radial-gradient(ellipse at 72% 18%,
-      rgba(235, 218, 175, 0.07) 0%,
-      transparent 42%),
+    /* faint warm worn area - lower left */
+    radial-gradient(
+      ellipse 38% 48% at 18% 88%,
+      rgba(199, 169, 105, 0.11) 0%,
+      rgba(199, 169, 105, 0.04) 42%,
+      transparent 74%
+    ),
 
-    radial-gradient(ellipse at 96% 55%,
-      rgba(4, 16, 11, 0.32) 0%,
-      rgba(4, 16, 11, 0.14) 30%,
-      transparent 55%),
+    /* faint warm patch around centre-right */
+    radial-gradient(
+      ellipse 45% 60% at 73% 54%,
+      rgba(221, 197, 145, 0.07) 0%,
+      rgba(221, 197, 145, 0.025) 45%,
+      transparent 72%
+    ),
 
-    radial-gradient(ellipse at 63% 88%,
-      rgba(0, 0, 0, 0.15) 0%,
-      transparent 46%),
+    /* dark worn patch at bottom-right */
+    radial-gradient(
+      ellipse 36% 50% at 94% 94%,
+      rgba(3, 16, 11, 0.26) 0%,
+      rgba(3, 16, 11, 0.12) 40%,
+      transparent 74%
+    ),
 
-    radial-gradient(ellipse at 42% 42%,
-      rgba(230, 211, 170, 0.05) 0%,
-      transparent 50%);
+    /* subtle cloudy mottling */
+    radial-gradient(
+      ellipse 18% 25% at 35% 25%,
+      rgba(255,255,255,0.035) 0%,
+      transparent 70%
+    ),
+
+    radial-gradient(
+      ellipse 20% 30% at 56% 75%,
+      rgba(0,0,0,0.06) 0%,
+      transparent 72%
+    ),
+
+    radial-gradient(
+      ellipse 15% 22% at 82% 32%,
+      rgba(255,255,255,0.03) 0%,
+      transparent 70%
+    ),
+
+    /* very faint old-paper fibres */
+    repeating-linear-gradient(
+      2deg,
+      rgba(255,255,255,0.012) 0px,
+      rgba(255,255,255,0.012) 1px,
+      transparent 1px,
+      transparent 13px
+    );
 
   opacity: 1;
+  mix-blend-mode: soft-light;
 }
+
 .hero > * {
   position: relative;
   z-index: 1;
