@@ -838,10 +838,15 @@ i,
 .explore-section {
   max-width: 960px;
   margin: 40px auto;
-  padding: 24px;
-  background: #f7f1e6;
+  padding: 28px;
+  background: #fbf8f0;
   border-radius: 18px;
   box-shadow: 0 10px 28px rgba(0,0,0,0.10);
+}
+
+.explore-section h2 {
+  margin: 0 0 20px 0;
+  color: #2f5e4b;
 }
 
 .explore-section .section-inner {
@@ -851,18 +856,13 @@ i,
   box-shadow: none;
 }
 
-.explore-section h2 {
-  margin-top: 0;
-  color: #2f5e4b;
-}
-
 .explore-section p {
   line-height: 1.7;
 }
 
 .explore-section .btn {
   margin-top: 12px;
-  background: #f7f1e6;
+  background: #fbf8f0;
   color: #2f5e4b;
 }
 /* =========================
