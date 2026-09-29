@@ -838,14 +838,17 @@ i,
 .explore-section {
   max-width: 960px;
   margin: 40px auto;
-  padding: 0 20px;
+  padding: 24px;
+  background: #f7f1e6;
+  border-radius: 18px;
+  box-shadow: 0 10px 28px rgba(0,0,0,0.10);
 }
 
 .explore-section .section-inner {
- background: #e7f0ec;
-  border-radius: 18px;
+  background: #e7f0ec;
+  border-radius: 16px;
   padding: 34px 34px 30px;
-  box-shadow: 0 10px 28px rgba(0,0,0,0.10);
+  box-shadow: none;
 }
 
 .explore-section h2 {
@@ -859,6 +862,8 @@ i,
 
 .explore-section .btn {
   margin-top: 12px;
+  background: #f7f1e6;
+  color: #2f5e4b;
 }
 /* =========================
    MOBILE HERO FIX
