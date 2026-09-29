@@ -865,6 +865,12 @@ i,
   background: #fbf8f0;
   color: #2f5e4b;
 }
+.content-section h2,
+.explore-section h2 {
+  font-family: Georgia, "Times New Roman", serif;
+  font-weight: 700;
+  color: #2f5e4b;
+}
 /* =========================
    MOBILE HERO FIX
    ========================= */
