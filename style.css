@@ -880,7 +880,23 @@ footer .image-copyright {
   font-size: 1.15rem !important;
   font-weight: 400 !important;
 }
+.tree-delivery {
+  background: #e7f0ec;
+  border-radius: 16px;
+  padding: 24px 28px;
+  margin: 22px 0;
+  font-style: normal;
+}
 
+.tree-delivery p {
+  margin: 0 0 14px 0;
+  line-height: 1.7;
+  font-style: normal;
+}
+
+.tree-delivery p:last-child {
+  margin-bottom: 0;
+}
 /* =========================
    MOBILE HERO FIX
    ========================= */
