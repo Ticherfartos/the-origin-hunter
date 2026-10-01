@@ -868,6 +868,22 @@ footer .image-copyright {
 .tree-delivery p:last-child {
   margin-bottom: 0;
 }
+.ancestor-audio {
+  background: #e7f0ec;
+  border-radius: 16px;
+  padding: 26px 28px;
+  margin-top: 28px;
+}
+
+.ancestor-audio h3 {
+  margin-top: 0;
+  color: #2f5e4b;
+}
+
+.ancestor-audio p {
+  line-height: 1.7;
+}
+
 /* =========================
    MOBILE HERO FIX
    ========================= */
