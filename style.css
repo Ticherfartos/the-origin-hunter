@@ -883,7 +883,25 @@ footer .image-copyright {
 .ancestor-audio p {
   line-height: 1.7;
 }
+.audio-story {
+  background: #e5f0ec;
+  border-radius: 16px;
+  padding: 28px 30px;
+  margin-top: 28px;
+}
 
+.audio-story h2 {
+  color: #2f5d4b;
+  margin-top: 0;
+}
+
+.audio-story p {
+  line-height: 1.6;
+}
+
+.audio-note {
+  font-style: italic;
+}
 /* =========================
    MOBILE HERO FIX
    ========================= */
