@@ -914,13 +914,18 @@ footer .image-copyright {
     margin-top: 0;
     font-weight: 700;
 }
+
 .certificate-note p {
     font-weight: 400;
 }
+
 .certificate-note p:last-child {
     margin-bottom: 0;
 }
 
+.certificate-assurance {
+    font-weight: 600 !important;
+}
 /* =========================
    MOBILE HERO FIX
    ========================= */
