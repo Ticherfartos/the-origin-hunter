@@ -1046,4 +1046,7 @@ footer .image-copyright {
             rgba(4, 15, 10, 0.22) 100%
         ) !important;
 }
+  .heritage-words {
+    transform: translateX(-45px) !important;
+}
 }
