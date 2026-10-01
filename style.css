@@ -902,6 +902,22 @@ footer .image-copyright {
 .audio-note {
   font-style: italic;
 }
+.certificate-note {
+    background: #e5f0ec;
+    border-radius: 16px;
+    padding: 24px 28px;
+    margin: 28px 0;
+}
+
+.certificate-note h3 {
+    color: #0f4f3c;
+    margin-top: 0;
+}
+
+.certificate-note p:last-child {
+    margin-bottom: 0;
+}
+
 /* =========================
    MOBILE HERO FIX
    ========================= */
