@@ -1030,4 +1030,7 @@ footer .image-copyright {
   .hero::before {
     background-position: 50% 52%, center !important;
 }
+  .word-home {
+    right: -20px !important;
+}
 }
