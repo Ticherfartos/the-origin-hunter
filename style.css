@@ -1028,6 +1028,6 @@ footer .image-copyright {
 
 /* Mobile heritage wording position */
 .heritage-words {
-    transform: translateX(-95px) !important;
+    left: -95px;
 }
 }
