@@ -1027,23 +1027,7 @@ footer .image-copyright {
 }
 
 /* Mobile heritage wording position */
-.word-families {
-    right: 65px;
-}
-
-.word-journeys {
-    right: 75px;
-}
-
-.word-connections {
-    right: 60px;
-}
-
-.word-generations {
-    right: 65px;
-}
-
-.word-home {
-    right: 110px;
+.heritage-words {
+    transform: translateX(-95px) !important;
 }
 }
