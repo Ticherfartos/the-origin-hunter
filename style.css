@@ -1026,4 +1026,8 @@ footer .image-copyright {
   max-width: 320px;
   margin-left: auto;
   margin-right: auto;
+
+  .hero::before {
+    background-position: 50% 52%, center !important;
+}
 }
