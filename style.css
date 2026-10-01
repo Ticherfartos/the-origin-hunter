@@ -1021,4 +1021,29 @@ footer .image-copyright {
   margin-left: auto;
   margin-right: auto;
 
+  /* Mobile compass position */
+.hero::after {
+    background-position: 50% 52%, center;
+}
+
+/* Mobile heritage wording position */
+.word-families {
+    right: -35px;
+}
+
+.word-journeys {
+    right: -25px;
+}
+
+.word-connections {
+    right: -40px;
+}
+
+.word-generations {
+    right: -35px;
+}
+
+.word-home {
+    right: 15px;
+}
 }
