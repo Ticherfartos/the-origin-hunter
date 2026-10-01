@@ -940,7 +940,10 @@ footer .image-copyright {
     padding: 0;
     margin: 0;
   }
-
+.hero::before {
+    background-position: 34% 52%, center;
+}
+  
   /* Hero becomes one column */
   .hero {
     display: grid;
