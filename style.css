@@ -1036,4 +1036,14 @@ footer .image-copyright {
   .heritage-words {
     transform: translateX(-45px) !important;
 }
+  .hero::before {
+    background:
+        url("mycompass.png") 50% 52% / 650px auto no-repeat,
+        radial-gradient(
+            ellipse at center,
+            transparent 45%,
+            rgba(5, 18, 13, 0.08) 72%,
+            rgba(4, 15, 10, 0.22) 100%
+        ) !important;
+}
 }
