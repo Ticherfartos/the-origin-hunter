@@ -1033,4 +1033,7 @@ footer .image-copyright {
   .word-home {
     right: -20px !important;
 }
+  .heritage-words {
+    transform: translateX(-45px) !important;
+}
 }
