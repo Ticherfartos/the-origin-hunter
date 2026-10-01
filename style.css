@@ -943,6 +943,10 @@ footer .image-copyright {
 .hero::before {
     background-position: 34% 52%, center;
 }
+ 
+.word-home {
+    right: -35px;
+}
   
   /* Hero becomes one column */
   .hero {
