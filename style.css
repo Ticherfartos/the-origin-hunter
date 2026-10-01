@@ -1046,4 +1046,8 @@ footer .image-copyright {
 .word-home {
     right: 140px;
 }
+.heritage-words span {
+    color: rgba(214, 181, 110, 0.28);
+}
+  
 }
