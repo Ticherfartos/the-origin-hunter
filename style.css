@@ -1021,11 +1021,4 @@ footer .image-copyright {
   margin-left: auto;
   margin-right: auto;
 
- .hero::before {
-    background-position: 50% 52%, center;
-}
-
-.heritage-words {
-    transform: translateX(-45px);
-}
 }
