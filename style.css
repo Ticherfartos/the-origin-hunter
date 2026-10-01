@@ -1028,23 +1028,22 @@ footer .image-copyright {
 
 /* Mobile heritage wording position */
 .word-families {
-    right: 80px;
-}
-
-.word-journeys {
     right: 90px;
 }
 
+.word-journeys {
+    right: 100px;
+}
+
 .word-connections {
-    right: 75px;
+    right: 100px;
 }
 
 .word-generations {
-    right: 80px;
+    right: 90px;
 }
 
 .word-home {
-    right: 130px;
+    right: 140px;
 }
-
 }
