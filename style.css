@@ -912,10 +912,12 @@ footer .image-copyright {
 .certificate-note h3 {
     color: #0f4f3c;
     margin-top: 0;
+    font-weight: 700;
 }
 
 .certificate-note p:last-child {
     margin-bottom: 0;
+    font-weight: 600;
 }
 
 /* =========================
