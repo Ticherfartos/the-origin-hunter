@@ -1096,5 +1096,7 @@ footer .image-copyright {
 .heritage-words span {
     color: rgba(214, 181, 110, 0.28);
 }
-  
+.steps {
+    grid-template-columns: 1fr;
+}  
 }
