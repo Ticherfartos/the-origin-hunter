@@ -885,17 +885,15 @@ footer .image-copyright {
   line-height: 1.7;
 }
 .audio-story {
-  background: #e5f0ec;
-  border-radius: 16px;
-  padding: 28px 30px;
- }
+    background: #e5f0ec;
+    border-radius: 16px;
+    padding: 28px 30px;
+    margin-top: 28px;
+}
 
-.audio-heading {
-    font-family: Georgia, "Times New Roman", serif;
-    font-weight: 700;
+.audio-story h2 {
+    margin-top: 0;
     color: #2f5e4b;
-    margin-top: 36px;
-    margin-bottom: 22px;
 }
 
 .audio-story p {
