@@ -888,11 +888,14 @@ footer .image-copyright {
   background: #e5f0ec;
   border-radius: 16px;
   padding: 28px 30px;
-  margin-top: 28px;
-}
+ }
 
-.audio-story h2 {
-  margin-top: 0;
+.audio-heading {
+    font-family: Georgia, "Times New Roman", serif;
+    font-weight: 700;
+    color: #2f5e4b;
+    margin-top: 36px;
+    margin-bottom: 22px;
 }
 
 .audio-story p {
