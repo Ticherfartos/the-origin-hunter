@@ -337,15 +337,14 @@ I have a passion for uncovering family stories and helping people connect with t
   <script>
 <script>
 
-let selectedPackage = null;
-
+<script>
 document.querySelectorAll('.package-select').forEach(button => {
 
     button.dataset.originalText = button.textContent.trim();
 
     button.addEventListener('click', function () {
 
-        selectedPackage = this.dataset.package;
+        const packageName = this.dataset.package;
 
         document.querySelectorAll('.package-select').forEach(btn => {
             btn.classList.remove('selected-package');
@@ -353,34 +352,19 @@ document.querySelectorAll('.package-select').forEach(button => {
         });
 
         this.classList.add('selected-package');
-        this.textContent = '✓ ' + selectedPackage + ' selected';
+        this.textContent = '✓ ' + packageName + ' selected';
+
+        const formLink = document.getElementById('client-form-link');
+
+        if (formLink) {
+            formLink.href =
+                'https://tally.so/r/XxpBRV?package=' +
+                encodeURIComponent(packageName);
+        }
 
     });
 
 });
-
-
-const formLink = document.getElementById('client-form-link');
-
-if (formLink) {
-
-    formLink.addEventListener('click', function (event) {
-
-        if (!selectedPackage) {
-            return;
-        }
-
-        event.preventDefault();
-
-        window.location.href =
-            'https://tally.so/r/XxpBRV?package=' +
-            encodeURIComponent(selectedPackage);
-
-    });
-
-}
-
-</script>
 </script>
 </body>
 </html>
