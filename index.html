@@ -341,8 +341,7 @@ document.querySelectorAll('.package-select').forEach(button => {
   button.addEventListener('click', function () {
     const packageName = this.dataset.package;
 
-    localStorage.setItem('originHunterPackage', packageName);
-
+   
     document.querySelectorAll('.package-select').forEach(btn => {
       btn.classList.remove('selected-package');
       btn.textContent = btn.dataset.originalText;
@@ -351,33 +350,29 @@ document.querySelectorAll('.package-select').forEach(button => {
     this.classList.add('selected-package');
     this.textContent = '✓ ' + packageName + ' selected';
 
-    updateTallyLinks();
-    setTimeout(() => {
-    localStorage.removeItem('originHunterPackage');
-}, 1500);
-  });
+   updateTallyLinks(packageName);
+     });
 });
 
-function updateTallyLinks() {
-    const selectedPackage = localStorage.getItem('originHunterPackage');
+function updateTallyLinks(selectedPackage) {
 
     if (!selectedPackage) return;
 
-    // Update normal links to the Tally form
+    // Normal links to Tally
     document.querySelectorAll('a[href*="tally.so/r/XxpBRV"]').forEach(link => {
         const url = new URL(link.href);
         url.searchParams.set('package', selectedPackage);
         link.href = url.toString();
     });
 
-    // Update an embedded Tally form
+    // Embedded Tally form
     document.querySelectorAll('iframe[src*="tally.so/embed/XxpBRV"]').forEach(frame => {
         const url = new URL(frame.src);
         url.searchParams.set('package', selectedPackage);
         frame.src = url.toString();
     });
 
-    // Also covers Tally embeds that use data-tally-src
+    // Tally embeds using data-tally-src
     document.querySelectorAll('[data-tally-src*="tally.so/embed/XxpBRV"]').forEach(frame => {
         const url = new URL(frame.getAttribute('data-tally-src'));
         url.searchParams.set('package', selectedPackage);
@@ -385,20 +380,7 @@ function updateTallyLinks() {
     });
 }
 
-document.addEventListener('DOMContentLoaded', function () {
-  const savedPackage = localStorage.getItem('originHunterPackage');
 
-  if (savedPackage) {
-    document.querySelectorAll('.package-select').forEach(button => {
-      if (button.dataset.package === savedPackage) {
-        button.classList.add('selected-package');
-        button.textContent = '✓ ' + savedPackage + ' selected';
-      }
-    });
-  }
-
-  updateTallyLinks();
-});
 </script>
 </body>
 </html>
