@@ -352,6 +352,7 @@ document.querySelectorAll('.package-select').forEach(button => {
     this.textContent = '✓ ' + packageName + ' selected';
 
     updateTallyLinks();
+    localStorage.removeItem('originHunterPackage');
   });
 });
 
