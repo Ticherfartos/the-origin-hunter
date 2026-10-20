@@ -356,15 +356,30 @@ document.querySelectorAll('.package-select').forEach(button => {
 });
 
 function updateTallyLinks() {
-  const selectedPackage = localStorage.getItem('originHunterPackage');
+    const selectedPackage = localStorage.getItem('originHunterPackage');
 
-  if (!selectedPackage) return;
+    if (!selectedPackage) return;
 
-  document.querySelectorAll('a[href*="tally.so/r/XxpBRV"]').forEach(link => {
-    const url = new URL(link.href);
-    url.searchParams.set('package', selectedPackage);
-    link.href = url.toString();
-  });
+    // Update normal links to the Tally form
+    document.querySelectorAll('a[href*="tally.so/r/XxpBRV"]').forEach(link => {
+        const url = new URL(link.href);
+        url.searchParams.set('package', selectedPackage);
+        link.href = url.toString();
+    });
+
+    // Update an embedded Tally form
+    document.querySelectorAll('iframe[src*="tally.so/embed/XxpBRV"]').forEach(frame => {
+        const url = new URL(frame.src);
+        url.searchParams.set('package', selectedPackage);
+        frame.src = url.toString();
+    });
+
+    // Also covers Tally embeds that use data-tally-src
+    document.querySelectorAll('[data-tally-src*="tally.so/embed/XxpBRV"]').forEach(frame => {
+        const url = new URL(frame.getAttribute('data-tally-src'));
+        url.searchParams.set('package', selectedPackage);
+        frame.setAttribute('data-tally-src', url.toString());
+    });
 }
 
 document.addEventListener('DOMContentLoaded', function () {
