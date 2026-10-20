@@ -335,36 +335,52 @@ I have a passion for uncovering family stories and helping people connect with t
   </p>
 </footer>
   <script>
+<script>
+
+let selectedPackage = null;
+
 document.querySelectorAll('.package-select').forEach(button => {
-  button.dataset.originalText = button.textContent.trim();
 
-  button.addEventListener('click', function () {
-    const packageName = this.dataset.package;
+    button.dataset.originalText = button.textContent.trim();
 
-   
-    document.querySelectorAll('.package-select').forEach(btn => {
-      btn.classList.remove('selected-package');
-      btn.textContent = btn.dataset.originalText;
+    button.addEventListener('click', function () {
+
+        selectedPackage = this.dataset.package;
+
+        document.querySelectorAll('.package-select').forEach(btn => {
+            btn.classList.remove('selected-package');
+            btn.textContent = btn.dataset.originalText;
+        });
+
+        this.classList.add('selected-package');
+        this.textContent = '✓ ' + selectedPackage + ' selected';
+
     });
 
-    this.classList.add('selected-package');
-    this.textContent = '✓ ' + packageName + ' selected';
-
-   updateTallyLinks(packageName);
-     });
 });
 
-function updateTallyLinks(selectedPackage) {
-    if (!selectedPackage) return;
 
-    const formLink = document.getElementById('client-form-link');
+const formLink = document.getElementById('client-form-link');
 
-    if (formLink) {
-        formLink.href =
+if (formLink) {
+
+    formLink.addEventListener('click', function (event) {
+
+        if (!selectedPackage) {
+            return;
+        }
+
+        event.preventDefault();
+
+        window.location.href =
             'https://tally.so/r/XxpBRV?package=' +
             encodeURIComponent(selectedPackage);
-    }
+
+    });
+
 }
+
+</script>
 </script>
 </body>
 </html>
