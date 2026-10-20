@@ -376,6 +376,22 @@ formLink.addEventListener('click', function(event) {
 
         window.open(tallyURL, '_blank');
     }
+  });
+const navFormLink = document.getElementById('nav-client-form');
+
+navFormLink.addEventListener('click', function(event) {
+
+    if (selectedPackage) {
+
+        event.preventDefault();
+
+        window.open(
+            'https://tally.so/r/XxpBRV?package=' +
+            encodeURIComponent(selectedPackage),
+            '_blank'
+        );
+    }
+
 
 });
 </script>
