@@ -270,7 +270,7 @@ I have a passion for uncovering family stories and helping people connect with t
 
     <p>
         <strong>1.</strong> Complete the Client Information Form
-        <a href="https://tally.so/r/XxpBRV">here</a>
+        <a id="client-form-link" href="https://tally.so/r/XxpBRV">here</a>
         <span class="step-note">
             If you have any questions about the Client Information Form before submitting it, please feel free to email me.
         </span>
@@ -355,32 +355,16 @@ document.querySelectorAll('.package-select').forEach(button => {
 });
 
 function updateTallyLinks(selectedPackage) {
-
     if (!selectedPackage) return;
 
-    // Normal links to Tally
-    document.querySelectorAll('a[href*="tally.so/r/XxpBRV"]').forEach(link => {
-        const url = new URL(link.href);
-        url.searchParams.set('package', selectedPackage);
-        link.href = url.toString();
-    });
+    const formLink = document.getElementById('client-form-link');
 
-    // Embedded Tally form
-    document.querySelectorAll('iframe[src*="tally.so/embed/XxpBRV"]').forEach(frame => {
-        const url = new URL(frame.src);
-        url.searchParams.set('package', selectedPackage);
-        frame.src = url.toString();
-    });
-
-    // Tally embeds using data-tally-src
-    document.querySelectorAll('[data-tally-src*="tally.so/embed/XxpBRV"]').forEach(frame => {
-        const url = new URL(frame.getAttribute('data-tally-src'));
-        url.searchParams.set('package', selectedPackage);
-        frame.setAttribute('data-tally-src', url.toString());
-    });
+    if (formLink) {
+        formLink.href =
+            'https://tally.so/r/XxpBRV?package=' +
+            encodeURIComponent(selectedPackage);
+    }
 }
-
-
 </script>
 </body>
 </html>
