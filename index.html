@@ -334,5 +334,53 @@ I have a passion for uncovering family stories and helping people connect with t
     Family photographs and images on this website may not be copied, reproduced or used without permission.
   </p>
 </footer>
+  <script>
+document.querySelectorAll('.package-select').forEach(button => {
+  button.dataset.originalText = button.textContent.trim();
+
+  button.addEventListener('click', function () {
+    const packageName = this.dataset.package;
+
+    localStorage.setItem('originHunterPackage', packageName);
+
+    document.querySelectorAll('.package-select').forEach(btn => {
+      btn.classList.remove('selected-package');
+      btn.textContent = btn.dataset.originalText;
+    });
+
+    this.classList.add('selected-package');
+    this.textContent = '✓ ' + packageName + ' selected';
+
+    updateTallyLinks();
+  });
+});
+
+function updateTallyLinks() {
+  const selectedPackage = localStorage.getItem('originHunterPackage');
+
+  if (!selectedPackage) return;
+
+  document.querySelectorAll('a[href*="tally.so/r/XxpBRV"]').forEach(link => {
+    const url = new URL(link.href);
+    url.searchParams.set('package', selectedPackage);
+    link.href = url.toString();
+  });
+}
+
+document.addEventListener('DOMContentLoaded', function () {
+  const savedPackage = localStorage.getItem('originHunterPackage');
+
+  if (savedPackage) {
+    document.querySelectorAll('.package-select').forEach(button => {
+      if (button.dataset.package === savedPackage) {
+        button.classList.add('selected-package');
+        button.textContent = '✓ ' + savedPackage + ' selected';
+      }
+    });
+  }
+
+  updateTallyLinks();
+});
+</script>
 </body>
 </html>
