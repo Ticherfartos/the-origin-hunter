@@ -949,6 +949,26 @@ footer .image-copyright {
     font-size: 0.95rem;
     line-height: 1.5;
 }
+.package-select {
+  display: inline-block;
+  margin-top: 18px;
+  padding: 10px 18px;
+  border: 1px solid #315b46;
+  border-radius: 6px;
+  background: #f8f5ec;
+  color: #315b46;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.package-select:hover {
+  background: #e4ece6;
+}
+
+.package-select.selected-package {
+  background: #315b46;
+  color: #ffffff;
+}
 /* =========================
    MOBILE HERO FIX
    ========================= */
