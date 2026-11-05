@@ -968,6 +968,8 @@ footer .image-copyright {
 .package-select.selected-package {
   background: #315b46;
   color: #ffffff;
+  .hero-highlight h3 {
+  margin-top: 1.4rem;
 }
 /* =========================
    MOBILE HERO FIX
