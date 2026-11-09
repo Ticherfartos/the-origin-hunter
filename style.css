@@ -971,7 +971,51 @@ footer .image-copyright {
 .hero-text {
   transform: translateY(-70px);
 }
+.testimonials-section {
+  padding: 70px 30px;
+  background: #f6f1e7;
+}
 
+.testimonials-section h2 {
+  text-align: center;
+  color: #315b46;
+  margin-bottom: 12px;
+}
+
+.testimonials-section .section-intro {
+  text-align: center;
+  max-width: 700px;
+  margin: 0 auto 35px;
+}
+
+.testimonial-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 24px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.testimonial-card {
+  background: #ffffff;
+  padding: 28px;
+  border-radius: 14px;
+}
+
+.testimonial-text {
+  font-style: italic;
+  line-height: 1.6;
+}
+
+.testimonial-name {
+  margin-top: 20px;
+  color: #315b46;
+}
+
+.testimonial-button-wrap {
+  text-align: center;
+  margin-top: 35px;
+}
 /* =========================
    MOBILE HERO FIX
    ========================= */
