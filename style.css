@@ -1032,6 +1032,42 @@ footer .image-copyright {
   border-radius: 8px;
   font-weight: 700;
 }
+  #testimonials {
+  display: block;
+  width: 100%;
+  max-width: none;
+  margin: 0;
+  padding: 70px 30px;
+  background: #f6f1e7;
+}
+
+#testimonials .section-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+#testimonials h2,
+#testimonials .section-intro,
+#testimonials .testimonial-button-wrap {
+  text-align: center;
+}
+
+#testimonials .testimonial-card {
+  background: #ffffff;
+  padding: 28px;
+  border-radius: 14px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.06);
+}
+
+#testimonials .button {
+  display: inline-block;
+  background: #315b46;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 14px 24px;
+  border-radius: 8px;
+  font-weight: 700;
+}
 /* =========================
    MOBILE HERO FIX
    ========================= */
