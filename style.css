@@ -1108,40 +1108,51 @@ footer .image-copyright {
   }
 
   
- /* Hero becomes one column */
+/* Mobile hero layout */
 .hero {
     display: block !important;
-    width: 100% !important;
+    width: auto !important;
     min-width: 0 !important;
-    max-width: 100% !important;
-    padding: 38px 24px 30px !important;
-    box-sizing: border-box;
-    overflow: hidden;
+    max-width: none !important;
+    min-height: auto !important;
+    padding: 32px 22px 36px !important;
+    box-sizing: border-box !important;
+    overflow: hidden !important;
 }
 
 .hero-text {
-    display: block;
-    width: 100% !important;
+    position: static !important;
+    display: block !important;
+    width: auto !important;
     min-width: 0 !important;
-    max-width: 100% !important;
+    max-width: none !important;
     transform: none !important;
-    box-sizing: border-box;
+    box-sizing: border-box !important;
 }
 
 .hero h1 {
-    font-size: clamp(2.8rem, 12vw, 3.7rem);
-    line-height: 0.98;
-    width: 100%;
-    max-width: 100%;
-    white-space: normal;
-    overflow-wrap: normal;
+    font-size: 3rem !important;
+    line-height: 1 !important;
+    width: auto !important;
+    max-width: none !important;
+    white-space: normal !important;
 }
 
 .hero p,
-.tagline {
-    width: 100%;
-    max-width: 100%;
-    white-space: normal;
+.hero .tagline,
+.hero-highlight {
+    width: auto !important;
+    min-width: 0 !important;
+    max-width: none !important;
+    white-space: normal !important;
+}
+
+.hero-buttons {
+    display: flex !important;
+    flex-direction: column !important;
+    width: auto !important;
+    max-width: none !important;
+    gap: 14px !important;
 }
 
   /* Put collage underneath the wording */
@@ -1201,11 +1212,12 @@ footer .image-copyright {
 }
 .hero .btn {
     display: block !important;
-    width: 100% !important;
+    width: auto !important;
     min-width: 0 !important;
-    max-width: 320px !important;
-    margin: 14px auto !important;
-    box-sizing: border-box;
+    max-width: none !important;
+    margin: 0 !important;
+    box-sizing: border-box !important;
+    text-align: center !important;
 }
   /* Mobile compass position */
 .hero::after {
