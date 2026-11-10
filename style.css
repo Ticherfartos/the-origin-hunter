@@ -1110,18 +1110,20 @@ footer .image-copyright {
   
  /* Hero becomes one column */
 .hero {
-    display: block;
-    width: 100%;
-    min-width: 0;
-    padding: 38px 24px 30px;
+    display: block !important;
+    width: 100% !important;
+    min-width: 0 !important;
+    max-width: 100% !important;
+    padding: 38px 24px 30px !important;
     box-sizing: border-box;
     overflow: hidden;
 }
 
 .hero-text {
-    width: 100%;
-    max-width: 100%;
-    min-width: 0;
+    display: block;
+    width: 100% !important;
+    min-width: 0 !important;
+    max-width: 100% !important;
     transform: none !important;
     box-sizing: border-box;
 }
