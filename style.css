@@ -1108,16 +1108,21 @@ footer .image-copyright {
 
   /* Hero */
   .hero {
-    display: block !important;
+    display: grid !important;
+    grid-template-columns: minmax(0, 1fr) !important;
     width: 100% !important;
     min-width: 0 !important;
     max-width: 100% !important;
     min-height: auto !important;
     padding: 42px 24px 38px !important;
-    box-sizing: border-box;
-    overflow: hidden;
-  }
+    box-sizing: border-box !important;
+    overflow: hidden !important;
+}
 
+.hero > * {
+    min-width: 0 !important;
+    max-width: 100% !important;
+}
   .hero::after {
     background-position: center 200px;
     background-size: 430px auto;
