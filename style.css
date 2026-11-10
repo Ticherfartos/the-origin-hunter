@@ -1129,23 +1129,23 @@ footer .image-copyright {
     opacity: 0.18;
   }
 
- .hero-text {
+.hero-text {
     display: block;
-    width: auto !important;
-    max-width: none !important;
+    width: 100% !important;
+    max-width: calc(100vw - 48px) !important;
     min-width: 0 !important;
     margin: 0 !important;
     padding: 0 !important;
     transform: none !important;
     position: relative;
     z-index: 2;
+    box-sizing: border-box !important;
 }
-
 .hero-text h1,
 .hero-text p,
 .hero-highlight,
 .hero-highlight p {
-    width: auto !important;
+    width: 100% !important;
     max-width: 100% !important;
     min-width: 0 !important;
     white-space: normal !important;
