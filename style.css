@@ -1068,10 +1068,9 @@ footer .image-copyright {
   border-radius: 8px;
   font-weight: 700;
 }
-/* =========================
+/* ===========================
    MOBILE HERO FIX
-   ========================= */
-
+   =========================== */
 @media (max-width: 768px) {
 
   html,
@@ -1084,6 +1083,7 @@ footer .image-copyright {
     position: relative;
     min-height: auto;
     padding: 22px 20px;
+    display: flex;
     flex-direction: column;
     align-items: center;
     gap: 22px;
@@ -1094,160 +1094,158 @@ footer .image-copyright {
     height: auto;
   }
 
-  .topbar nav {
+  .topbar .nav {
     width: 100%;
-  }
-
-  .topbar nav ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
     gap: 18px 28px;
-    padding: 0;
+  }
+
+  .topbar .nav a {
+    display: inline-block;
+  }
+
+  /* Hero */
+  .hero {
+    display: block !important;
+    width: 100% !important;
+    min-width: 0 !important;
+    max-width: 100% !important;
+    min-height: auto !important;
+    padding: 42px 24px 38px !important;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+
+  .hero::after {
+    background-position: center 200px;
+    background-size: 430px auto;
+    opacity: 0.18;
+  }
+
+  .hero-text {
+    display: block;
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
+    transform: none !important;
+    position: relative;
+    z-index: 2;
+  }
+
+  .hero h1 {
+    font-size: clamp(2.9rem, 15vw, 4.4rem) !important;
+    line-height: 0.92;
+    width: 100%;
+    max-width: 100%;
+    white-space: normal;
+    overflow-wrap: break-word;
     margin: 0;
   }
 
-  
-/* Mobile hero layout */
-.hero {
-    display: block !important;
-    width: auto !important;
-    min-width: 0 !important;
-    max-width: none !important;
-    min-height: auto !important;
-    padding: 32px 22px 36px !important;
-    box-sizing: border-box !important;
-    overflow: hidden !important;
-}
+  .gold-line {
+    margin: 0 0 18px;
+  }
 
-.hero-text {
-    position: static !important;
+  .tagline {
+    font-size: 1.75rem;
+    line-height: 1.2;
+    margin-bottom: 22px;
+  }
+
+  .hero p {
+    width: 100%;
+    max-width: 100% !important;
+    white-space: normal;
+    font-size: 1.12rem;
+    line-height: 1.55;
+  }
+
+  .hero-highlight {
+    margin-top: 18px;
+  }
+
+  .hero-highlight h3 {
+    margin: 0 0 10px !important;
+    line-height: 1.2;
+  }
+
+  .hero-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 28px;
+    width: 100%;
+  }
+
+  .hero .btn {
     display: block !important;
-    width: auto !important;
+    width: 100% !important;
+    max-width: 320px !important;
     min-width: 0 !important;
-    max-width: none !important;
+    margin: 0 auto !important;
+    box-sizing: border-box;
+    text-align: center;
+  }
+
+  /* Collage underneath text */
+  .hero-collage {
+    position: relative;
+    width: 100%;
+    max-width: 360px;
+    height: 560px;
+    margin: 34px auto 0;
     transform: none !important;
-    box-sizing: border-box !important;
-}
+    overflow: visible;
+  }
 
-.hero h1 {
-    font-size: 3rem !important;
-    line-height: 1 !important;
-    width: auto !important;
-    max-width: none !important;
-    white-space: normal !important;
-}
+  .collage-main {
+    width: 285px;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+    z-index: 2;
+  }
 
-.hero p,
-.hero .tagline,
-.hero-highlight {
-    width: auto !important;
-    min-width: 0 !important;
-    max-width: none !important;
-    white-space: normal !important;
-}
+  .collage-margaret {
+    width: 105px;
+    left: 20px;
+    top: 255px;
+    transform: rotate(-3deg);
+    z-index: 3;
+  }
 
-.hero-buttons {
-    display: flex !important;
-    flex-direction: column !important;
-    width: auto !important;
-    max-width: none !important;
-    gap: 14px !important;
-}
+  .collage-family {
+    width: 115px;
+    right: 20px;
+    top: 250px;
+    transform: rotate(4deg);
+    z-index: 3;
+  }
 
-  /* Put collage underneath the wording */
- .hero-collage {
-  position: relative;
-  width: 100%;
-  max-width: 390px;
-  height: 560px;
-  margin: 28px auto 0;
-  transform: none !important;
-  overflow: visible;
-}
+  .collage-percy {
+    width: 135px;
+    left: 22px;
+    top: 420px;
+    transform: rotate(2.5deg);
+    z-index: 3;
+  }
 
-/* Frederick - centred */
-.collage-main {
-  width: 285px;
-  left: 50%;
-  top: 5px;
-  transform: translateX(-50%);
-  z-index: 2;
-}
+  .collage-ron {
+    width: 125px;
+    right: 22px;
+    top: 420px;
+    transform: rotate(-3deg);
+    z-index: 3;
+  }
 
-/* Margaret - upper left */
-.collage-margaret {
-  width: 105px;
-  left: 28px;
-  top: 255px;
-  transform: rotate(-3deg);
-  z-index: 3;
-}
+  /* Hide side wording on small screens to keep it clean */
+  .heritage-words {
+    display: none;
+  }
 
-/* Family - upper right */
-.collage-family {
-  width: 115px;
-  right: 28px;
-  top: 250px;
-  transform: rotate(4deg);
-  z-index: 3;
-}
-
-/* Percy - lower left */
-.collage-percy {
-  width: 135px;
-  left: 30px;
-  top: 420px;
-  transform: rotate(2.5deg);
-  z-index: 3;
-}
-
-/* Ron - lower right */
-.collage-ron {
-  width: 125px;
-  right: 30px;
-  top: 420px;
-  transform: rotate(-3deg);
-  z-index: 3;
-}
-.hero .btn {
-    display: block !important;
-    width: auto !important;
-    min-width: 0 !important;
-    max-width: none !important;
-    margin: 0 !important;
-    box-sizing: border-box !important;
-    text-align: center !important;
-}
-  /* Mobile compass position */
-.hero::after {
-    background-position: 50% 52%, center;
-}
-
-/* Mobile heritage wording position */
-.word-families {
-    right: 90px;
-}
-
-.word-journeys {
-    right: 100px;
-}
-
-.word-connections {
-    right: 100px;
-}
-
-.word-generations {
-    right: 90px;
-}
-
-.word-home {
-    right: 140px;
-}
-.heritage-words span {
-    color: rgba(214, 181, 110, 0.28);
-}
-.steps {
+  .steps {
     grid-template-columns: 1fr;
-}  
+  }
 }
