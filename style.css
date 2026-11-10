@@ -968,6 +968,7 @@ footer .image-copyright {
 .package-select.selected-package {
   background: #315b46;
   color: #ffffff;
+}
 .hero-text {
   transform: translateY(-70px);
 }
