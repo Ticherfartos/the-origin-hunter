@@ -1200,11 +1200,11 @@ footer .image-copyright {
   z-index: 3;
 }
 .hero .btn {
-    display: block;
-    width: 100%;
-    max-width: 320px;
-    margin-left: auto;
-    margin-right: auto;
+    display: block !important;
+    width: 100% !important;
+    min-width: 0 !important;
+    max-width: 320px !important;
+    margin: 14px auto !important;
     box-sizing: border-box;
 }
   /* Mobile compass position */
