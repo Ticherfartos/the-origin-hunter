@@ -1219,3 +1219,60 @@ footer .image-copyright {
     grid-template-columns: 1fr;
 }  
 }
+
+  html,
+  body {
+    overflow-x: hidden;
+  }
+
+  .hero {
+    width: 100%;
+    min-height: auto;
+    overflow: hidden;
+  }
+
+  .hero-content {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    padding: 36px 24px;
+    box-sizing: border-box;
+  }
+
+  .hero-text {
+    width: 100%;
+    max-width: 100%;
+    transform: none !important;
+    box-sizing: border-box;
+  }
+
+  .hero-text h1 {
+    font-size: 3.2rem;
+    line-height: 0.98;
+    max-width: 100%;
+    overflow-wrap: normal;
+  }
+
+  .hero-text p {
+    max-width: 100%;
+  }
+
+  .hero-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    width: 100%;
+  }
+
+  .hero-buttons a {
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+  }
+
+  .hero-images {
+    width: 100%;
+    max-width: 100%;
+    margin-top: 30px;
+  }
+}
