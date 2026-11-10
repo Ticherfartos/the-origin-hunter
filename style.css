@@ -1219,7 +1219,7 @@ footer .image-copyright {
     grid-template-columns: 1fr;
 }  
 }
-
+@media (max-width: 768px) {
   html,
   body {
     overflow-x: hidden;
