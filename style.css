@@ -1078,6 +1078,9 @@ footer .image-copyright {
   top: 28px;
   left: 28px;
 }
+.price-card.featured .badge {
+  background: #6f947f;
+}
 /* ===========================
    MOBILE HERO FIX
    =========================== */
