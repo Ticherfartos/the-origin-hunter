@@ -1069,6 +1069,15 @@ footer .image-copyright {
   border-radius: 8px;
   font-weight: 700;
 }
+.price-card {
+  padding-top: 72px;
+}
+
+.price-card .badge {
+  position: absolute;
+  top: 28px;
+  left: 28px;
+}
 /* ===========================
    MOBILE HERO FIX
    =========================== */
