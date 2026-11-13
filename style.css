@@ -684,9 +684,9 @@ i,
 
 .hero-collage {
   position: relative;
-  width: 820px;
+  width: 920px;
   max-width: 100%;
-  height: 575px;
+  height: 640px;
   justify-self: center;
   align-self: center;
   overflow: visible;
@@ -694,7 +694,6 @@ i,
   /* Bring the whole collage nearer the heading */
   transform: translateX(-95px);
 }
-
 .collage-photo {
   position: absolute;
   display: block;
@@ -736,45 +735,41 @@ i,
 }
 /* Frederick - main photograph */
 .collage-main {
-  width: 455px;
-  left: 175px;
+  width: 510px;
+  left: 195px;
   top: 35px;
   transform: none;
   z-index: 2;
 }
 
-/* Margaret - portrait left */
 .collage-margaret {
-  width: 155px;
+  width: 175px;
   left: 5px;
-  top: 70px;
+  top: 75px;
   transform: rotate(-3deg);
   z-index: 3;
 }
 
-/* Family - upper right */
 .collage-family {
-  width: 175px;
+  width: 195px;
   right: 0px;
   top: 25px;
   transform: rotate(4deg);
   z-index: 3;
 }
 
-/* Percy - lower left */
 .collage-percy {
-  width: 220px;
-  left: 105px;
-   bottom: 35px;
+  width: 245px;
+  left: 115px;
+  bottom: 40px;
   transform: rotate(2.5deg);
   z-index: 3;
 }
 
-/* Ron - lower right */
 .collage-ron {
-  width: 200px;
-  right: 95px;
-  bottom: 50px;
+  width: 225px;
+  right: 105px;
+  bottom: 55px;
   transform: rotate(-3deg);
   z-index: 3;
 }
